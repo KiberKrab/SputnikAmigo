@@ -14,7 +14,7 @@ namespace SputnikAmigo
             Console.WriteLine("Installing Amigo...");
             Thread.Sleep(500);
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i += 5)
             {
                 Console.WriteLine(i + "%");
                 Thread.Sleep(50);
@@ -28,13 +28,15 @@ namespace SputnikAmigo
             Thread.Sleep(500);
 
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i += 5)
             {
                 Console.WriteLine(i + "%");
                 Thread.Sleep(50);
 
             }
             Console.WriteLine("Install success!");
+
+            Console.ReadKey();
         }
     }
 }

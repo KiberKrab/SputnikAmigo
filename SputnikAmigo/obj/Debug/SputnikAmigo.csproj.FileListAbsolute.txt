@@ -4,3 +4,9 @@ c:\users\kiber_krab\documents\visual studio 2012\Projects\SputnikAmigo\SputnikAm
 c:\users\kiber_krab\documents\visual studio 2012\Projects\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.csprojResolveAssemblyReference.cache
 c:\users\kiber_krab\documents\visual studio 2012\Projects\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.exe
 c:\users\kiber_krab\documents\visual studio 2012\Projects\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.pdb
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\bin\Debug\SputnikAmigo.exe.config
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\bin\Debug\SputnikAmigo.exe
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\bin\Debug\SputnikAmigo.pdb
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.csprojResolveAssemblyReference.cache
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.exe
+C:\FILES\Projects\SputnikAmigo\SputnikAmigo\SputnikAmigo\obj\Debug\SputnikAmigo.pdb
