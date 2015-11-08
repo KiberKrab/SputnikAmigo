@@ -36,7 +36,7 @@
           <param name="dotNetTestRunner.Type" value="NUnit" />
           <param name="nunit_enabled" value="checked" />
           <param name="nunit_environment" value="v4.0" />
-          <param name="nunit_include" value="Bank\BankTests\bin\Release\BankTests.dll" />
+          <param name="nunit_include" value="%teamcity.build.checkoutDir%\BankTests\bin\Release\BankTests.dll" />
           <param name="nunit_platform" value="MSIL" />
           <param name="nunit_version" value="NUnit-2.6.4" />
           <param name="teamcity.step.mode" value="default" />
