@@ -17,7 +17,7 @@
           <param name="vs.version" value="vs2015" />
         </parameters>
       </runner>
-      <runner id="RUNNER_4" name="BankTests" type="NUnit">
+      <runner id="RUNNER_4" name="BankTests" type="VisualStudioTest">
         <parameters>
           <param name="dotNetCoverage.NCover.HTMLReport.File.Sort" value="0" />
           <param name="dotNetCoverage.NCover.HTMLReport.File.Type" value="1" />
@@ -33,14 +33,15 @@
           <param name="dotNetCoverage.PartCover.includes" value="[*]*" />
           <param name="dotNetCoverage.PartCover.platformBitness" value="x86" />
           <param name="dotNetCoverage.PartCover.platformVersion" value="v2.0" />
-          <param name="dotNetTestRunner.Type" value="NUnit" />
-          <param name="nunit_enabled" value="checked" />
-          <param name="nunit_environment" value="v4.0" />
-          <param name="nunit_include" value="%teamcity.build.checkoutDir%\BankTests\bin\Release\BankTests.dll" />
-          <param name="nunit_platform" value="MSIL" />
-          <param name="nunit_version" value="NUnit-2.6.4" />
+          <param name="dotNetTestRunner.Type" value="GenericProcess" />
+          <param name="mstest_enable" value="checked" />
           <param name="teamcity.step.mode" value="default" />
-          <param name="teamcity.tests.runRiskGroupTestsFirst" value="recentlyFailed" />
+          <param name="vstest_detect_team_city_logger" value="true" />
+          <param name="vstest_engine" value="VSTest" />
+          <param name="vstest_framework" value="default" />
+          <param name="vstest_include" value="%teamcity.build.checkoutDir%\BankTests\bin\Release\BankTests.dll" />
+          <param name="vstest_platform" value="x86" />
+          <param name="vstest_runner_path" value="%teamcity.dotnet.vstest.14.0%" />
         </parameters>
       </runner>
     </build-runners>
