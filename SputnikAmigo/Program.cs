@@ -25,7 +25,7 @@ namespace SputnikAmigo
             Thread.Sleep(500);
 
             Console.WriteLine("Installing Sputnik...");
-            Thread.Sleep(500)
+            Thread.Sleep(500);
 
             for (int i = 0; i < 100; i += 5)
             {
